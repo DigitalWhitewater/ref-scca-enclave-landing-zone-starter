@@ -29,3 +29,8 @@ variable "windows_app_site_config" {
   type        = string
   description = "value"
 }
+
+variable "enable_private_endpoint" {
+  type        = bool
+  description = "Controls if a private end-point should be created."
+}
