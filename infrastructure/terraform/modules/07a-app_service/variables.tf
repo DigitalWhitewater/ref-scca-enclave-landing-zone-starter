@@ -24,3 +24,8 @@ variable "website_run_from_package" {
   type        = string
   description = "Specifies if the demonstration web application runs from a package."
 }
+
+variable "windows_app_site_config" {
+  type        = string
+  description = "value"
+}
