@@ -34,3 +34,8 @@ variable "enable_private_endpoint" {
   type        = bool
   description = "Controls if a private end-point should be created."
 }
+
+variable "app_service_name" {
+  type        = string
+  description = "The name of the app service to create"
+}
