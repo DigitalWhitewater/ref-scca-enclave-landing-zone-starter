@@ -20,4 +20,7 @@ variable "budget_scope" {
   description = "The scope of the budget. This can be either a subscription, a resource group, or a management group."
 }
 
-
+variable "website_run_from_package" {
+  type        = string
+  description = "Specifies if the demonstration web application runs from a package."
+}
